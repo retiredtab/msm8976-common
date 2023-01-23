@@ -136,7 +136,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     AdvancedDisplay \
-    copybit.msm8952 \
     gralloc.msm8952 \
     hwcomposer.msm8952 \
     libgenlock \
