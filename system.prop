@@ -55,6 +55,9 @@ debug.sf.enable_gl_backpressure=1
 debug.sf.latch_unsignaled=1
 debug.hwui.profile=true
 
+# Graphics
+debug.renderengine.backend=threaded
+
 # GPS
 persist.gps.qc_nlp_in_use=1
 ro.gps.agps_provider=1
