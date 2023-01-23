@@ -35,6 +35,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 2048
 TARGET_SCREEN_WIDTH := 1536
 
+# BPF - needed for ultra legacy devices
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.kernel.ebpf.supported=false
+
 # Device characteristics
 PRODUCT_CHARACTERISTICS := tablet
 
