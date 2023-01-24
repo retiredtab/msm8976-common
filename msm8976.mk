@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio.service.msm8976 \
     audio.primary.msm8952 \
     audio.r_submix.default \
     audio.usb.default \
@@ -111,8 +112,10 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    audio.bluetooth.default \
     android.hardware.bluetooth@1.0-impl \
     android.hardware.bluetooth@1.0-service \
+    android.hardware.bluetooth.audio@2.0-impl \
     libbt-vendor
 
 # Camera

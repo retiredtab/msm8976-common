@@ -188,6 +188,7 @@ TARGET_PER_MGR_ENABLED := true
 TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
+TARGET_PRODUCT_PROP += $(VENDOR_PATH)/product.prop
 TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
 
 # Qualcomm
