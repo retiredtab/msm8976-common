@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     audio.primary.msm8952 \
     audio.r_submix.default \
-    audio.a2dp.default \
     audio.usb.default \
     audio.r_submix.default
 
