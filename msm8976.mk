@@ -265,8 +265,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
 
-# Soong
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/samsung
 
 # Surfaceflinger
 PRODUCT_PROPERTY_OVERRIDES += \
