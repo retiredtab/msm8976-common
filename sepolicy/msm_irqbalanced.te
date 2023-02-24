@@ -1,0 +1,2 @@
+#============= msm_irqbalanced ==============
+allow msm_irqbalanced default_prop:file r_file_perms;
