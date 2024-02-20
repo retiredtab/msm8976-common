@@ -1,5 +1,5 @@
 #============= init ==============
-allow init app_data_file:dir getattr;
+allow init app_data_file:dir { getattr relabelfrom };
 allow init audio_device:chr_file rw_file_perms;
 allow init audioserver:binder transfer;
 allow init audioserver:fd use;
@@ -16,16 +16,17 @@ allow init hal_lineage_livedisplay_hwservice:hwservice_manager { add find };
 allow init hidl_base_hwservice:hwservice_manager add;
 allow init hwservicemanager:binder { call transfer };
 allow init ion_device:chr_file r_file_perms;
-allow init privapp_data_file:dir getattr;
+allow init privapp_data_file:dir { getattr relabelfrom };
 allow init proc:file setattr;
 allow init proc_asound:file r_file_perms;
 allow init proc_audiod:file getattr;
+allow init seapp_contexts_file:file r_file_perms;
 allow init servicemanager:binder { call transfer };
 allow init shell_data_file:dir relabelfrom;
 allow init sysfs:file rw_file_perms;
 allow init sysfs_graphics:file rw_file_perms;
 allow init sysfs_livedisplay_tuneable:file rw_file_perms;
-allow init system_app_data_file:dir getattr;
+allow init system_app_data_file:dir { getattr relabelfrom };
 allow init tee_device:chr_file rw_file_perms;
 allow init vendor_file:file execute_no_trans;
 allow init vfsspi_device:chr_file rw_file_perms;

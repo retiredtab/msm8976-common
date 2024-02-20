@@ -1,0 +1,2 @@
+#============= netd ==============
+allow netd device:dir r_dir_perms;
