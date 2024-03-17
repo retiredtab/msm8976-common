@@ -20,3 +20,6 @@
 # SDCard
 /devices/soc.0/7864900.sdhci/mmc_host*              auto               auto    defaults                                                                       voldmanaged=sdcard1:auto
 /devices/platform/msm_hsusb_host/usb*               auto               auto    defaults                                                                       voldmanaged=usb:auto
+
+# ZRAM
+/dev/block/zram0                                    none               swap    defaults zramsize=33%,max_comp_streams=4
