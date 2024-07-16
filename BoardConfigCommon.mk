@@ -181,7 +181,9 @@ PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
 # Keymaster
-TARGET_PROVIDES_KEYMASTER := true
+# DEBUG   : pid: 404, tid: 404, name: android.hardwar  >>> /vendor/bin/hw/android.hardware.keymaster@4.1-service <<<
+# DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+# TARGET_PROVIDES_KEYMASTER := true
 
 # Enable memfd - needed otherwise you get crashes like Jit thread pool  >>> system_server <<<
 TARGET_HAS_MEMFD_BACKPORT := true
