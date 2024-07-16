@@ -1,0 +1,5 @@
+#============= mediaserver ==============
+allow mediaserver sysfs_camera:dir search;
+allow mediaserver sysfs_camera:file r_file_perms;
+allow mediaserver vendor_file:file execmod;
+allow mediaserver vendor_file:file rx_file_perms;

@@ -11,5 +11,6 @@ allow hal_gnss_default location_data_file:fifo_file { open read setattr write };
 allow hal_gnss_default location:unix_stream_socket connectto;
 allow hal_gnss_default location_data_file:sock_file write;
 allow hal_gnss_default self:udp_socket { create ioctl };
+allow hal_gnss_default system_file:file r_file_perms;
 
 allow hal_gnss_default sysfs_batteryinfo:dir search;

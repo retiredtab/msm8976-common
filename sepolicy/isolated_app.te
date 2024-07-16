@@ -1,0 +1,4 @@
+#============= isolated_app ==============
+
+#!!!! This avc is allowed in the current policy
+allow isolated_app content_capture_service:service_manager find;

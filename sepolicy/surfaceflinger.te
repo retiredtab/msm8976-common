@@ -1,0 +1,3 @@
+#============= surfaceflinger ==============
+allow surfaceflinger vendor_file:file rx_file_perms;
+get_prop(surfaceflinger, vendor_default_prop)

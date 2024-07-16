@@ -1,0 +1,2 @@
+allow untrusted_app_32 vendor_boringssl_self_test_exec:file r_file_perms;
+

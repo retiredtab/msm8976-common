@@ -1,2 +1,4 @@
 #============= location ==============
 allow location default_prop:file r_file_perms;
+allow location system_file:file r_file_perms;
+

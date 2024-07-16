@@ -1,2 +1,4 @@
 #============= netd ==============
 allow netd device:dir r_dir_perms;
+allow netd vendor_file:file r_file_perms;
+

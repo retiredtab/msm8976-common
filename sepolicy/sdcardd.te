@@ -1,2 +1,4 @@
 #============= sdcardd ==============
 allow sdcardd unlabeled:dir search;
+allow sdcardd vendor_file:file r_file_perms;
+

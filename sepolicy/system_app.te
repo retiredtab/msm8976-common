@@ -13,3 +13,7 @@ allow system_app time_data_file:file create;
 allow system_app vendor_default_prop:property_service set;
 
 set_prop(system_app, timekeep_prop)
+
+allow system_app sysfs:file r_file_perms;
+allow system_app vendor_file:file rx_file_perms;
+
