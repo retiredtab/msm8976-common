@@ -54,6 +54,7 @@ debug.sf.latch_unsignaled=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.latch_unsignaled=1
 debug.hwui.profile=true
+ro.hardware.egl=adreno
 
 # Graphics
 debug.renderengine.backend=threaded
