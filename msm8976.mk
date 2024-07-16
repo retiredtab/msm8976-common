@@ -125,10 +125,6 @@ PRODUCT_PACKAGES += \
     camera.msm8952 \
     libshims_camera
 
-# Configstore
-PRODUCT_PACKAGES += \
-    disable_configstore
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
