@@ -36,8 +36,11 @@ TARGET_SCREEN_HEIGHT := 2048
 TARGET_SCREEN_WIDTH := 1536
 
 # BPF - needed for ultra legacy devices
+# BpfHandler: Waited 40s for bpf.progs_loaded, still waiting...
+# bpf.progs_loaded=1
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.kernel.ebpf.supported=false
+    ro.kernel.ebpf.supported=false \
+    bpf.progs_loaded=1
 
 # Device characteristics
 PRODUCT_CHARACTERISTICS := tablet
