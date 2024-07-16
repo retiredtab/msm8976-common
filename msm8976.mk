@@ -231,7 +231,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libminijail_32
 
 # Qualcomm dependencies
 PRODUCT_PACKAGES += \
