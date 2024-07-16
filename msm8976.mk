@@ -81,7 +81,7 @@ PRODUCT_COPY_FILES += \
     
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.service.msm8976 \
+    android.hardware.audio.service \
     audio.primary.msm8952 \
     audio.r_submix.default \
     audio.usb.default \
