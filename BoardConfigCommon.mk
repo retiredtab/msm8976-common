@@ -176,6 +176,7 @@ TARGET_NO_RPC := true
 # HIDL
 DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
+DEVICE_MATRIX_FILE   := hardware/qcom-caf/common/compatibility_matrix.xml
 
 # Init
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
