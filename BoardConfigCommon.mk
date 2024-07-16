@@ -128,6 +128,11 @@ ifeq ($(HOST_OS),linux)
 endif
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
 
+# Flatten Apex disabled starting with Android 14
+# However, it doesn't seem to work, so LineageOS-UL hardcoded it at
+# https://github.com/LineageOS/android_build/commit/1d10d6898b5d9113d75eb5e532b96beb4e712cae
+# OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # Display
 BOARD_USES_ADRENO := true
 SF_VSYNC_EVENT_PHASE_OFFSET_NS := 2000000
