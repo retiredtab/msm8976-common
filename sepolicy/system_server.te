@@ -12,6 +12,7 @@ allow system_server userspace_reboot_config_prop:file r_file_perms;
 allow system_server userspace_reboot_exported_prop:file r_file_perms;
 allow system_server vendor_security_patch_level_prop:file r_file_perms;
 
+allow system_server future_pm_prop:file r_file_perms;
 allow system_server proc:file r_file_perms;
 allow system_server sensors_data_file:file unlink;
 allow system_server system_data_root_file:dir w_dir_perms;
