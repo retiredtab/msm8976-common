@@ -1,10 +1,13 @@
 #============= untrusted_app_32 ==============
 allow untrusted_app_32 aac_drc_prop:file r_file_perms;
 allow untrusted_app_32 ab_update_gki_prop:file r_file_perms;
+allow untrusted_app_32 adaptive_haptics_prop:file r_file_perms;
+allow untrusted_app_32 alarm_boot_prop:file r_file_perms;
 allow untrusted_app_32 apex_info_file:file r_file_perms;
 allow untrusted_app_32 app_efs_file:dir r_dir_perms;
 allow untrusted_app_32 app_efs_file:file r_file_perms;
 allow untrusted_app_32 block_device:dir r_dir_perms;
+allow untrusted_app_32 bluetooth_efs_file:dir search;
 allow untrusted_app_32 build_bootimage_prop:file r_file_perms;
 allow untrusted_app_32 efs_file:dir r_dir_perms;
 allow untrusted_app_32 efs_file:file r_file_perms;

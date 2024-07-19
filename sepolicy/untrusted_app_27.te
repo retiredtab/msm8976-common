@@ -1,0 +1,2 @@
+#============= untrusted_app_27 ==============
+allow untrusted_app_27 vendor_file:file rx_file_perms;
