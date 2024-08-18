@@ -14,6 +14,13 @@ allow system_app vendor_default_prop:property_service set;
 
 set_prop(system_app, timekeep_prop)
 
+allow system_app apex_service:service_manager find;
+allow system_app artd:binder call;
+allow system_app hal_wifi_supplicant_default:binder call;
+allow system_app netd:binder call;
 allow system_app sysfs:file r_file_perms;
+# allow system_app system_suspend:binder call;
+allow system_app system_suspend_control_internal_service:service_manager find;
+allow system_app system_suspend_control_service:service_manager find;
+# allow system_app tracingproxy_service:service_manager find;
 allow system_app vendor_file:file rx_file_perms;
-
