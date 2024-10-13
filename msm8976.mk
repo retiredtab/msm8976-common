@@ -234,6 +234,11 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libminijail_32
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0-impl \
+    android.hardware.power@1.0-service
+
 # Qualcomm dependencies
 PRODUCT_PACKAGES += \
     libtinyxml \
